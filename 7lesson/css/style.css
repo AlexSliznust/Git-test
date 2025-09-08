@@ -1,0 +1,28 @@
+#menu a {
+	margin-bottom: 10px;
+    padding: 15px 25px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: white;
+	border: 1px solid green;
+	background-color: green;
+}
+#menu {
+	display: flex;
+    /* flex-direction: column; */
+    /* width: 300px; */
+
+}
+#menu a:hover, #menu a.active {
+    
+	color: white;
+	border: 1px solid green;
+	background-color: rgb(15, 68, 14);
+}
+#menu a.active{
+    background-color: rgb(15, 68, 14);
+    color: rgb(11, 29, 11);
+}
+a{
+    cursor: pointer;
+}
